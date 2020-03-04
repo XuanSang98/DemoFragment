@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.DynamicsFragmentActivity">
+    <FrameLayout
+        android:id="@+id/frame_main"
+        android:layout_above="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/d5"
+        android:id="@+id/linerlayout"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d60">
+        <Button
+            android:onClick="clickFragment"
+            android:id="@+id/btn_add"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d60"
+            android:layout_margin="@dimen/d5"
+            android:background="@color/colorOrange"
+            android:text="FRAGMENT ONE"
+            android:textColor="@color/colorWhite"
+            tools:ignore="ButtonStyle,OnClick" />
+        <Button
+            android:onClick="clickFragment"
+            android:id="@+id/btn_replace"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d60"
+            android:layout_margin="@dimen/d5"
+            android:background="@color/colorOrange"
+            android:text="FRAGMENT TWO"
+            android:textColor="@color/colorWhite"
+            tools:ignore="ButtonStyle,OnClick" />
+    </LinearLayout>
+</RelativeLayout>

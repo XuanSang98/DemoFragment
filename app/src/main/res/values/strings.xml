@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentSimple</string>
+    <string name="txt_btn_next">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_add_fr">ADD</string>
+    <string name="txt_replace">REPLACE</string>
+    <string name="txt_delete">delete</string>
+</resources>

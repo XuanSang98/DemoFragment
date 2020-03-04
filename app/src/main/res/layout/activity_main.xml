@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_static_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d60"
+        android:background="@color/colorOrange"
+        android:text="STATIC FRAGMENT"
+        android:layout_margin="@dimen/d40"
+        android:textColor="@color/colorWhite"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:layout_below="@id/btn_static_fragment"
+        android:id="@+id/btn_dynamics_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d60"
+        android:layout_margin="@dimen/d40"
+        android:background="@color/colorOrange"
+        android:text="DYNAMICS FRAGMENT"
+        android:textColor="@color/colorWhite"
+        tools:ignore="ButtonStyle" />
+</RelativeLayout>
